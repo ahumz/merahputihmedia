@@ -1,0 +1,19 @@
+Untuk memudahkan pengecekan tes skill dari merahputih.com
+Saya menggunakan hosting dari 000webhost
+Tetapi saya attach pula versi offline-nya
+
+[ONLINE]
+Tools:: Browser
+1. Buka >> https://merahputihmedia.000webhostapp.com/ pada browser
+2. Soal I, saya jawab di menu 1 (Tambah Data)
+3. Soal II, saya jawab di menu ke 2 (Soal Kedua(SQL))
+4. Untuk dapat menjalankan soal ke 2, buatlah akun ORACLE Live SQL untuk dapat menjalankannya
+
+[OFFLINE]
+Tools:: Xampp (local server), phpmyadmin, browser
+1. Extract file merahputih.com 
+2. Aktifkan Apache dan MySQL pada Xampp
+3. Buatlah database di phpmyadmin bernama dbmerahputih
+4. Lalu import file sql (dbmerahputih.sql) yang berada pada hasil extract file yang tadi (merahputih-sql)
+5. Jalankan pada comment line "php artisan serve" dilokasi folder merahputih berada
+6. Bukalah browser lalu masukan alamat "localhost:8000/siswa"
